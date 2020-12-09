@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lQuF9d0s3OfaAG4eUAZPZCNxOT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/one_page" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="" />
+      <created>1607541529465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607541529465</updated>
+      <workItem from="1607541532251" duration="414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="346" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607541754673" />
+    <state x="953" y="323" key="FileChooserDialogImpl" timestamp="1607541700202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607541700202" />
+    <state x="766" y="226" key="scopes" timestamp="1607541685780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="226" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1607541685780" />
   </component>
 </project>
