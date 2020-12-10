@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,18 @@
     <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,25 +81,27 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comment" />
     <MESSAGE value="comment Yevhenii" />
     <option name="LAST_COMMIT_MESSAGE" value="comment Yevhenii" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html" />
-    <MESSAGE value="mi_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="mi_commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607616642435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607616642435" />
-    <state x="447" y="23" key="CommitChangelistDialog2" timestamp="1607620779292">
-      <screen x="0" y="23" width="1280" height="722" />
-    </state>
-    <state x="447" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1607620779292" />
     <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -114,10 +126,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607616474320" />
-    <state x="710" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607620781703">
-      <screen x="0" y="23" width="1280" height="722" />
-    </state>
-    <state x="710" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.722@0.23.1280.722" timestamp="1607620781703" />
     <state x="766" y="226" key="scopes" timestamp="1607541685780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
