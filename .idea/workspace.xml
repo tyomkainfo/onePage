@@ -67,10 +67,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Misha" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="23" key="CommitChangelistDialog2" timestamp="1607620187580">
+    <state x="447" y="23" key="CommitChangelistDialog2" timestamp="1607620213351">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="447" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1607620187580" />
+    <state x="447" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1607620213351" />
     <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -79,10 +79,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607541700202" />
-    <state x="480" y="124" key="Vcs.Push.Dialog.v2" timestamp="1607620090967">
+    <state x="256" y="85" key="MergeDialog" timestamp="1607620305442">
       <screen x="0" y="23" width="1280" height="722" />
     </state>
-    <state x="480" y="124" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1607620090967" />
+    <state x="256" y="85" key="MergeDialog/0.23.1280.722@0.23.1280.722" timestamp="1607620305442" />
+    <state x="638" y="107" key="MultipleFileMergeDialog" timestamp="1607620305467">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="638" y="107" key="MultipleFileMergeDialog/0.23.1280.722@0.23.1280.722" timestamp="1607620305467" />
+    <state x="480" y="124" key="Vcs.Push.Dialog.v2" timestamp="1607620219086">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state x="480" y="124" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1607620219086" />
     <state x="766" y="226" key="scopes" timestamp="1607541685780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
