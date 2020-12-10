@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,10 +23,10 @@
   <component name="ProjectId" id="1lQuF9d0s3OfaAG4eUAZPZCNxOT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
@@ -49,11 +43,24 @@
       <option name="presentableId" value="Default" />
       <updated>1607541529465</updated>
       <workItem from="1607541532251" duration="414000" />
+      <workItem from="1607619902133" duration="318000" />
     </task>
+    <task id="LOCAL-00001" summary="kaleriia">
+      <created>1607620089746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607620089747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kaleriia" />
+    <option name="LAST_COMMIT_MESSAGE" value="kaleriia" />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
