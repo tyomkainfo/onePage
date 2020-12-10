@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="" />
     <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1lQuF9d0s3OfaAG4eUAZPZCNxOT" />
   <component name="ProjectViewState">
@@ -95,13 +97,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comment" />
     <MESSAGE value="comment Yevhenii" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment Yevhenii" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607616642435">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607620815308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607616642435" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607620815308" />
     <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -110,22 +113,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607541700202" />
-    <state x="129" y="53" key="MergeDialog" timestamp="1607616610916">
+    <state x="129" y="53" key="MergeDialog" timestamp="1607620893613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="53" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607616610916" />
-    <state x="395" y="78" key="MultipleFileMergeDialog" timestamp="1607616613676">
+    <state x="129" y="53" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607620893613" />
+    <state x="395" y="78" key="MultipleFileMergeDialog" timestamp="1607620893629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="78" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607616613676" />
+    <state x="395" y="78" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607620893629" />
     <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607616558583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607616558583" />
-    <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607616474320">
+    <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607620827083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607616474320" />
+    <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607620827083" />
     <state x="766" y="226" key="scopes" timestamp="1607541685780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
