@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -48,14 +47,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607541529465</updated>
-      <workItem from="1607541532251" duration="414000" />
+      <workItem from="1607541532251" duration="633000" />
+      <workItem from="1607619821864" duration="267000" />
     </task>
+    <task id="LOCAL-00001" summary="Add section">
+      <created>1607542065206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607542065206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add section" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="799" y="163" key="CommitChangelistDialog2" timestamp="1607542058664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="799" y="163" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607542058664" />
     <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -64,6 +80,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607541700202" />
+    <state x="766" y="301" key="Vcs.Push.Dialog.v2" timestamp="1607542103937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607542103937" />
     <state x="766" y="226" key="scopes" timestamp="1607541685780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
