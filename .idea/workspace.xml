@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -84,18 +85,6 @@
     <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/sass.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,23 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607541529465</updated>
       <workItem from="1607541532251" duration="414000" />
-      <workItem from="1607616307330" duration="313000" />
     </task>
-    <task id="LOCAL-00001" summary="comment">
-      <created>1607616500355</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607616500355</updated>
-    </task>
-    <task id="LOCAL-00002" summary="comment Yevhenii">
-      <created>1607616556967</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607616556968</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -162,28 +135,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
+            <State />
           </value>
         </entry>
       </map>
@@ -195,11 +147,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="comment Yevhenii" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="289" y="23" key="CommitChangelistDialog2" timestamp="1607620940650">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607616642435">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607616642435" />
-    <state x="289" y="23" key="CommitChangelistDialog2/0.23.1280.722@0.23.1280.722" timestamp="1607620940650" />
     <state x="808" y="346" key="EditFileWatcherDialog" timestamp="1607541754673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -208,26 +159,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607541700202" />
-    <state x="121" y="76" key="MergeDialog" timestamp="1607620971070">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="129" y="53" key="MergeDialog" timestamp="1607616610916">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="53" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607616610916" />
-    <state x="121" y="76" key="MergeDialog/0.23.1280.722@0.23.1280.722" timestamp="1607620971070" />
-    <state x="370" y="100" key="MultipleFileMergeDialog" timestamp="1607620971102">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="395" y="78" key="MultipleFileMergeDialog" timestamp="1607616613676">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="78" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607616613676" />
-    <state x="370" y="100" key="MultipleFileMergeDialog/0.23.1280.722@0.23.1280.722" timestamp="1607620971102" />
-    <state x="258" y="117" key="Vcs.Push.Dialog.v2" timestamp="1607620949107">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607616558583">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607616558583" />
-    <state x="258" y="117" key="Vcs.Push.Dialog.v2/0.23.1280.722@0.23.1280.722" timestamp="1607620949107" />
-    <state x="461" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607620993728">
-      <screen x="0" y="23" width="1280" height="722" />
+    <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607616474320">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607616474320" />
-    <state x="461" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.722@0.23.1280.722" timestamp="1607620993728" />
     <state x="766" y="226" key="scopes" timestamp="1607541685780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
