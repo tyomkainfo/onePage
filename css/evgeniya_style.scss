@@ -28,11 +28,21 @@ $sub-color: #10c9c3;
       font-family: "Font Awesome 5 Free";
       font-weight: 400;
       color: #8b8b8b;
-      &:nth-of-type(2){
-        content: "\f3cd";
-      }
+      font-size: 40px;
     }
 
+  }
+
+  .item_serv &:nth-of-type(2){
+    h4 &:before {
+      content: "";
+    }
+    }
+  .item_serv &:nth-of-type(3){
+    h4 &:before{
+      content: "\f3cd";
+      font-weight: 900;
+    }
   }
 
 
