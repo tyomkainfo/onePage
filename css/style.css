@@ -1,85 +1,126 @@
-/*
-Error: Undefined variable: "$main-bg-color".
-        on line 20 of Anastasia_style.scss
-        from line 2 of style.scss
+section.numbers {
+  background-color: #10c9c3;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff; }
 
-15:   padding: 0;
-16:   margin: 0;
-17:   box-sizing: border-box;
-18: }
-19: .container {
-20:   max-width: 1170px;
-21:   margin: auto;
-22: }
-23: .d-flex {
-24:   display: flex;
-25: }
+.width-510 {
+  max-width: 510px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 58px; }
 
-Backtrace:
-Anastasia_style.scss:20
-style.scss:2
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
-D:/Program Files/Ruby27-x64/bin/scss:23:in `load'
-D:/Program Files/Ruby27-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$main-bg-color\".\A         on line 20 of Anastasia_style.scss\A         from line 2 of style.scss\A \A 15:   padding: 0;\A 16:   margin: 0;\A 17:   box-sizing: border-box;\A 18: }\A 19: .container {\A 20:   max-width: 1170px;\A 21:   margin: auto;\A 22: }\A 23: .d-flex {\A 24:   display: flex;\A 25: }"; }
+.video {
+  width: 100%;
+  height: 570px;
+  position: relative;
+  margin: auto; }
+
+.width-540 {
+  max-width: 540px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px; }
+
+.need_a_P {
+  background-color: #f5f5f5; }
+  .need_a_P form {
+    max-width: 670px;
+    margin: auto;
+    justify-content: space-between; }
+    .need_a_P form input {
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      padding-left: 20px;
+      font-size: 15px;
+      font-family: Nunito Sans, sans-serif;
+      color: #787878;
+      border: none;
+      margin-bottom: 30px;
+      outline: none; }
+    .need_a_P form .min-input {
+      max-width: 320px; }
+    .need_a_P form textarea {
+      width: 100%;
+      height: 170px;
+      background-color: white;
+      padding: 14px 20px;
+      font-size: 15px;
+      font-family: Nunito Sans, sans-serif;
+      color: #787878;
+      border: none;
+      outline: none;
+      margin-bottom: 30px; }
+    .need_a_P form button {
+      max-width: 180px;
+      width: 100%;
+      height: 54px;
+      background-color: #10c9c3;
+      font-family: Montserrat, sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      border: none;
+      outline: none;
+      margin: auto; }
+
+.services {
+  background-color: #f5f5f5; }
+
+.item_serv {
+  width: 25%;
+  padding: 0 15px;
+  text-align: center; }
+  .item_serv h4 {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 22px; }
+    .item_serv h4:before {
+      content: "\f3a5";
+      display: block;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      color: #8b8b8b; }
+      .item_serv h4:before:nth-of-type(2) {
+        content: "\f3cd"; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1170px;
+  margin: auto; }
+
+.d-flex {
+  display: flex; }
+
+.d-wrap {
+  flex-wrap: wrap; }
+
+.main-box {
+  padding: 100px 15px; }
+
+h2 {
+  display: inline-block;
+  width: 100%;
+  font-size: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #191919;
+  text-align: center;
+  margin-bottom: 40px; }
+
+p {
+  display: inline-block;
+  font-size: 16px;
+  font-family: Nunito Sans, sans-serif;
+  color: #787878;
+  line-height: 24px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
