@@ -5,8 +5,13 @@ $main-bg-color: #f5f5f5;
 $sub-color: #10c9c3;
 
 section.numbers {
+  padding: 102px 0 105px;
   background-color: $sub-color;
   font-size: 12px;
   text-transform: uppercase;
+  p{
+    color: #fff;
+  }
+
 }
 

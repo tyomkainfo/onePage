@@ -1,4 +1,5 @@
-section.numbers { background-color: #10c9c3; font-size: 12px; text-transform: uppercase; }
+section.numbers { padding: 102px 0 105px; background-color: #10c9c3; font-size: 12px; text-transform: uppercase; }
+section.numbers p { color: #fff; }
 
 .width-510 { max-width: 510px; width: 100%; margin: auto; margin-bottom: 58px; }
 
