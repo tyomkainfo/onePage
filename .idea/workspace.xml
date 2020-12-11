@@ -63,7 +63,8 @@
       <updated>1607541529465</updated>
       <workItem from="1607541532251" duration="414000" />
       <workItem from="1607616307330" duration="313000" />
-      <workItem from="1607719523621" duration="2577000" />
+      <workItem from="1607719523621" duration="3241000" />
+      <workItem from="1607722956848" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="comment">
       <created>1607616500355</created>
@@ -114,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607722194919</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change name of file">
+      <created>1607722328762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607722328762</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change name of file">
+      <created>1607724245882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607724245882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,49 +175,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="change name of file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607722225515">
+    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607724242425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607625135088" />
-    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607722225515" />
-    <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607719775533">
+    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607724242425" />
+    <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607724281836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="575" y="242" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1607624717269" />
-    <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607719775533" />
-    <state x="953" y="323" key="FileChooserDialogImpl" timestamp="1607719603466">
+    <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724281836" />
+    <state x="953" y="323" key="FileChooserDialogImpl" timestamp="1607722921817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607719603466" />
-    <state x="181" y="76" key="MergeDialog" timestamp="1607717276781">
+    <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607722921817" />
+    <state x="181" y="76" key="MergeDialog" timestamp="1607724109858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="129" y="53" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607620893613" />
-    <state x="181" y="76" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607717276781" />
-    <state x="555" y="111" key="MultipleFileMergeDialog" timestamp="1607717276828">
+    <state x="181" y="76" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724109858" />
+    <state x="555" y="111" key="MultipleFileMergeDialog" timestamp="1607724109874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="395" y="78" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607620893629" />
-    <state x="555" y="111" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607717276828" />
-    <state x="259" y="9" key="SettingsEditor" timestamp="1607721591129">
+    <state x="555" y="111" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724109874" />
+    <state x="259" y="9" key="SettingsEditor" timestamp="1607724282970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607624719609" />
-    <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607721591129" />
-    <state x="387" y="136" key="Vcs.Push.Dialog.v2" timestamp="1607722201195">
+    <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607724282970" />
+    <state x="387" y="136" key="Vcs.Push.Dialog.v2" timestamp="1607722331049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607625153119" />
-    <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607722201195" />
+    <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607722331049" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607719522456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607719522456" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607722277742">
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607724077448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607625050258" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607722277742" />
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607724077448" />
     <state x="766" y="226" key="scopes" timestamp="1607719638130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
