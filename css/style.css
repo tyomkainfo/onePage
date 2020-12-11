@@ -1,26 +1,50 @@
 /*
-Error: File to import not found or unreadable: Evgeniya_style.
-        on line 9 of style.scss
+Error: Undefined variable: "$main-bg-color".
+        on line 20 of Anastasia_style.scss
+        from line 2 of style.scss
 
-4: $main-bg-color: #f5f5f5;
-5: $sub-color: #10c9c3;
-6: 
-7: @import "valli_style";
-8: @import "Anastasia_style";
-9: @import "Evgeniya_style";
-10: @import "kat_style";
-11: @import "kaleriia_style";
-12: @import "ivan_style";
-13: 
-14: * {
+15:   padding: 0;
+16:   margin: 0;
+17:   box-sizing: border-box;
+18: }
+19: .container {
+20:   max-width: 1170px;
+21:   margin: auto;
+22: }
+23: .d-flex {
+24:   display: flex;
+25: }
 
 Backtrace:
-style.scss:9
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+Anastasia_style.scss:20
+style.scss:2
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
 D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
 D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 D:/Program Files/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
@@ -58,4 +82,4 @@ D:/Program Files/Ruby27-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: Evgeniya_style.\A         on line 9 of style.scss\A \A 4: $main-bg-color: #f5f5f5;\A 5: $sub-color: #10c9c3;\A 6: \A 7: @import \"valli_style\";\A 8: @import \"Anastasia_style\";\A 9: @import \"Evgeniya_style\";\A 10: @import \"kat_style\";\A 11: @import \"kaleriia_style\";\A 12: @import \"ivan_style\";\A 13: \A 14: * {"; }
+  content: "Error: Undefined variable: \"$main-bg-color\".\A         on line 20 of Anastasia_style.scss\A         from line 2 of style.scss\A \A 15:   padding: 0;\A 16:   margin: 0;\A 17:   box-sizing: border-box;\A 18: }\A 19: .container {\A 20:   max-width: 1170px;\A 21:   margin: auto;\A 22: }\A 23: .d-flex {\A 24:   display: flex;\A 25: }"; }

@@ -1,6 +1,5 @@
-section .numbers {
+section.numbers {
     background-color: #10c9c3;
     font-size: 12px;
+    text-transform: uppercase;
 }
-
-/*# sourceMappingURL=valli_style.css.map */
