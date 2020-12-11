@@ -1,3 +1,9 @@
+section.numbers {
+  background-color: #10c9c3;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff; }
+
 .width-510 {
   max-width: 510px;
   width: 100%;
@@ -59,6 +65,28 @@
       border: none;
       outline: none;
       margin: auto; }
+
+.services {
+  background-color: #f5f5f5; }
+
+.item_serv {
+  width: 25%;
+  padding: 0 15px;
+  text-align: center; }
+  .item_serv h4 {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 22px; }
+    .item_serv h4:before {
+      content: "\f3a5";
+      display: block;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      color: #8b8b8b; }
+      .item_serv h4:before:nth-of-type(2) {
+        content: "\f3cd"; }
 
 * {
   padding: 0;
