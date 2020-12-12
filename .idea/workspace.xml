@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/evgeniya_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/valli_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/valli_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/42f498259cdb2f161ff7cbac9fdeb24f4c64ae06/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/42f498259cdb2f161ff7cbac9fdeb24f4c64ae06/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607725040828</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="del evgeniya_style">
+      <created>1607775051230</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607775051230</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,18 +188,19 @@
     <MESSAGE value="change name of file" />
     <MESSAGE value="add @import" />
     <MESSAGE value="попытка закоммитить scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="попытка закоммитить scss" />
+    <MESSAGE value="del evgeniya_style" />
+    <option name="LAST_COMMIT_MESSAGE" value="del evgeniya_style" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607729187640">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607775486059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607729187640" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607775486059" />
     <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725036423" />
-    <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607724281836">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="575" y="152" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607775346296">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="575" y="242" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1607624717269" />
+    <state x="575" y="152" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1607775346296" />
     <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724281836" />
     <state x="953" y="323" key="FileChooserDialogImpl" timestamp="1607722921817">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -219,15 +216,15 @@
     </state>
     <state x="395" y="78" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607620893629" />
     <state x="555" y="111" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724109874" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1607728691741">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1607775355421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607728691741" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607775355421" />
     <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607724282970" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607729080569">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607775495665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607729080569" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607775495665" />
     <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725044913" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607724512000">
       <screen x="0" y="0" width="1920" height="1040" />
