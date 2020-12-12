@@ -6,37 +6,85 @@ $sub-color: #10c9c3;
 
 
 section.numbers {
-  padding: 101px 0;
+  padding: 101px 15px;
   background-color: $sub-color;
   font-size: 12px;
   text-transform: uppercase;
   .container.d-flex{
+    position: relative;
+    max-width: 1165px;
     justify-content: space-between;
     flex-wrap: nowrap;
     @media screen and (max-width: 992px) {
       padding: 0 15px 0;
     }
-    .number.d-flex{
+    .number.d-flex {
       width: 266px;
       @media screen and (max-width: 992px) {
-      display: block;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-      @media screen and (max-width: 767px) {
-        width: 50%;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
       }
-      img{
+      @media screen and (max-width: 767px) {
+        //width: 50%;
+      }
+
+      img {
         margin-right: 29px;
         @media screen and (max-width: 992px) {
           display: block;
           margin: 0 auto 20px;
+          cursor: pointer;
         }
+        //@media screen and (max-width: 992px) {
+        //  &:hover + .paragraph{
+        //    display: block;
+        //    background-color: #239591;
+        //    padding: 10px;
+        //    opacity: 1;
+        //    position: absolute;
+        //    transform: scale(1.5);
+        //    top: 99%;
+        //    left: 42%;
+        //  }
+        //}
+        @media screen and (max-width: 992px) {
+          &:active + .paragraph{
+            display: block;
+            background-color: #239591;
+            padding: 10px;
+            opacity: 1;
+            position: absolute;
+            transform: scale(1.5);
+            top: 99%;
+            left: 42%;
+
+          }
+        }
+        @media screen and (max-width: 767px) {
+          &:active + .paragraph{
+            transform: scale(1);
+            left: 40%;
+          }
+        }
+        @media screen and (max-width: 420px) {
+          &:active + .paragraph{
+            transform: scale(1);
+            left: 30%;
+          }
+        }
+
+
       }
-      .paragraph{
+
+      .paragraph {
         align-content: space-between;
         flex-wrap: wrap;
-        p{
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
+
+        p {
           display: block;
           font-family: $font-main;
           font-size: 12px;
@@ -47,7 +95,8 @@ section.numbers {
             text-align: center;
             line-height: 12px;
           }
-          span{
+
+          span {
             display: block;
             width: 100%;
             font-size: 18px;
@@ -55,8 +104,10 @@ section.numbers {
             @media screen and (max-width: 992px) {
               margin: 0 auto 20px;
             }
+
           }
-          &:hover{
+
+          &:hover {
             color: #d099c8;
           }
         }
