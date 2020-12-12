@@ -29,20 +29,20 @@ section.numbers {
           section.numbers .container.d-flex .number.d-flex img:active + .paragraph {
             display: block;
             background-color: #239591;
+            width: 100%;
             padding: 10px;
             opacity: 1;
             position: absolute;
             transform: scale(1.5);
             top: 99%;
-            left: 42%; } }
+            left: 0; } }
         @media screen and (max-width: 767px) {
           section.numbers .container.d-flex .number.d-flex img:active + .paragraph {
             transform: scale(1);
-            left: 40%; } }
+            left: 0; } }
         @media screen and (max-width: 420px) {
           section.numbers .container.d-flex .number.d-flex img:active + .paragraph {
-            transform: scale(1);
-            left: 30%; } }
+            transform: scale(1); } }
       section.numbers .container.d-flex .number.d-flex .paragraph {
         align-content: space-between;
         flex-wrap: wrap; }

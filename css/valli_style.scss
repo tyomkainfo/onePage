@@ -25,10 +25,6 @@ section.numbers {
         flex-wrap: wrap;
         justify-content: center;
       }
-      @media screen and (max-width: 767px) {
-        //width: 50%;
-      }
-
       img {
         margin-right: 29px;
         @media screen and (max-width: 992px) {
@@ -36,47 +32,34 @@ section.numbers {
           margin: 0 auto 20px;
           cursor: pointer;
         }
-        //@media screen and (max-width: 992px) {
-        //  &:hover + .paragraph{
-        //    display: block;
-        //    background-color: #239591;
-        //    padding: 10px;
-        //    opacity: 1;
-        //    position: absolute;
-        //    transform: scale(1.5);
-        //    top: 99%;
-        //    left: 42%;
-        //  }
-        //}
+
         @media screen and (max-width: 992px) {
           &:active + .paragraph{
             display: block;
             background-color: #239591;
+            width: 100%;
             padding: 10px;
             opacity: 1;
             position: absolute;
             transform: scale(1.5);
             top: 99%;
-            left: 42%;
+            left: 0;
 
           }
         }
         @media screen and (max-width: 767px) {
           &:active + .paragraph{
             transform: scale(1);
-            left: 40%;
+            left: 0;
           }
         }
         @media screen and (max-width: 420px) {
           &:active + .paragraph{
             transform: scale(1);
-            left: 30%;
+
           }
         }
-
-
       }
-
       .paragraph {
         align-content: space-between;
         flex-wrap: wrap;
@@ -104,9 +87,7 @@ section.numbers {
             @media screen and (max-width: 992px) {
               margin: 0 auto 20px;
             }
-
           }
-
           &:hover {
             color: #d099c8;
           }
