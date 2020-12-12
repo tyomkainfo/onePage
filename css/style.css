@@ -1,11 +1,54 @@
 section.numbers {
-  padding: 102px 0 105px;
+  padding: 101px 0;
   background-color: #10c9c3;
   font-size: 12px;
-  text-transform: uppercase;
-  justify-content: space-between; }
-  section.numbers p {
-    color: #fff; }
+  text-transform: uppercase; }
+  section.numbers .container.d-flex {
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+    @media screen and (max-width: 992px) {
+      section.numbers .container.d-flex {
+        padding: 0 15px 0; } }
+    section.numbers .container.d-flex .number.d-flex {
+      width: 266px; }
+      @media screen and (max-width: 992px) {
+        section.numbers .container.d-flex .number.d-flex {
+          display: block;
+          flex-wrap: wrap;
+          justify-content: center; } }
+      @media screen and (max-width: 767px) {
+        section.numbers .container.d-flex .number.d-flex {
+          width: 50%; } }
+      section.numbers .container.d-flex .number.d-flex img {
+        margin-right: 29px; }
+        @media screen and (max-width: 992px) {
+          section.numbers .container.d-flex .number.d-flex img {
+            display: block;
+            margin: 0 auto 20px; } }
+      section.numbers .container.d-flex .number.d-flex .paragraph {
+        align-content: space-between;
+        flex-wrap: wrap; }
+        section.numbers .container.d-flex .number.d-flex .paragraph p {
+          display: block;
+          font-family: Montserrat, sans-serif;
+          font-size: 12px;
+          color: #fff;
+          text-align: left; }
+          @media screen and (max-width: 992px) {
+            section.numbers .container.d-flex .number.d-flex .paragraph p {
+              display: block;
+              text-align: center;
+              line-height: 12px; } }
+          section.numbers .container.d-flex .number.d-flex .paragraph p span {
+            display: block;
+            width: 100%;
+            font-size: 18px;
+            margin-right: 30px; }
+            @media screen and (max-width: 992px) {
+              section.numbers .container.d-flex .number.d-flex .paragraph p span {
+                margin: 0 auto 20px; } }
+          section.numbers .container.d-flex .number.d-flex .paragraph p:hover {
+            color: #d099c8; }
 
 .width-510 {
   max-width: 510px;
