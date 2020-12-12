@@ -1,0 +1,77 @@
+$font-main: Montserrat, sans-serif;
+$font-sub: Nunito Sans, sans-serif;
+$font-main-color: #191919;
+$main-bg-color: #f5f5f5;
+$sub-color: #10c9c3;
+
+
+.width-510 {
+  max-width: 510px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 58px;
+}
+.video {
+  width: 100%;
+  height: 570px;
+  position: relative;
+  margin: auto;
+}
+.width-540 {
+  max-width: 540px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.need_a_P {
+  background-color: $main-bg-color;
+  form {
+    max-width: 670px;
+    margin: auto;
+    justify-content: space-between;
+    input {
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      padding-left: 20px;
+      font-size: 15px;
+      font-family: $font-sub;
+      color: #787878;
+      border: none;
+      margin-bottom: 30px;
+      outline: none;
+    }
+    .min-input {
+      max-width: 320px;
+    }
+    textarea {
+      width: 100%;
+      height: 170px;
+      background-color: white;
+      padding: 14px 20px;
+      font-size: 15px;
+      font-family: $font-sub;
+      color: #787878;
+      border: none;
+      outline: none;
+      margin-bottom: 30px;
+    }
+    button {
+      max-width: 180px;
+      width: 100%;
+      height: 54px;
+      background-color: $sub-color;
+      font-family: $font-main;
+      font-size: 12px;
+      text-transform: uppercase;
+      text-align: center;
+      color: white;
+      border: none;
+      outline: none;
+      margin: auto;
+    }
+  }
+}
+
+
+
