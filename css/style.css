@@ -69,6 +69,32 @@ section.numbers {
       outline: none;
       margin: auto; }
 
+.services {
+  background-color: #f5f5f5; }
+
+.item_serv {
+  width: 25%;
+  padding: 0 15px;
+  text-align: center; }
+  .item_serv h4 {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 22px; }
+    .item_serv h4:before {
+      content: "\f3a5";
+      display: block;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      color: #8b8b8b;
+      font-size: 40px; }
+  h4 .item_serv .item_serv:nth-of-type(2):before {
+    content: ""; }
+  h4 .item_serv .item_serv:nth-of-type(3):before {
+    content: "\f3cd";
+    font-weight: 900; }
+
 * {
   padding: 0;
   margin: 0;

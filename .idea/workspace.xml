@@ -143,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607775051230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit evgeniya_style">
+      <created>1607775487326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607775487326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit evgeniya_style">
+      <created>1607775532332</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607775532332</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,13 +203,14 @@
     <MESSAGE value="add @import" />
     <MESSAGE value="попытка закоммитить scss" />
     <MESSAGE value="del evgeniya_style" />
-    <option name="LAST_COMMIT_MESSAGE" value="del evgeniya_style" />
+    <MESSAGE value="commit evgeniya_style" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit evgeniya_style" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607775486059">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607775530923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607775486059" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607775530923" />
     <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725036423" />
     <state x="575" y="152" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607775346296">
       <screen x="0" y="0" width="1366" height="728" />
@@ -221,10 +236,10 @@
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607775355421" />
     <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607724282970" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607775495665">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607775534858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607775495665" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607775534858" />
     <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725044913" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607724512000">
       <screen x="0" y="0" width="1920" height="1040" />
