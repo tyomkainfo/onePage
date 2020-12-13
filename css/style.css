@@ -348,6 +348,9 @@ img {
   .we_design .bloc_text {
     max-width: 480px;
     text-align: left; }
+    @media screen and (max-width: 767px) {
+      .we_design .bloc_text {
+        text-align: center; } }
     .we_design .bloc_text h1 {
       font-family: "Montserrat m";
       font-size: 38px;
@@ -359,6 +362,10 @@ img {
       color: #787878;
       line-height: 28px;
       margin-bottom: 40px; }
+      @media screen and (max-width: 767px) {
+        .we_design .bloc_text p {
+          text-align: center;
+          margin: 0 15px; } }
     .we_design .bloc_text a {
       display: inline-block;
       padding: 20px 45px;
@@ -367,13 +374,21 @@ img {
       font-size: 12px;
       font-family: "Montserrat m";
       text-transform: uppercase;
-      text-decoration: none; }
-    .we_design .bloc_text a:hover {
-      color: #10c9c3;
-      background-color: white; }
+      text-decoration: none;
+      border: 2px solid #10c9c3; }
+      @media screen and (max-width: 767px) {
+        .we_design .bloc_text a {
+          margin-top: 20px; } }
+  .we_design a:hover {
+    color: #10c9c3;
+    background-color: white;
+    border: 2px solid #10c9c3; }
 
 .d-j_end {
   justify-content: flex-end; }
+  @media screen and (max-width: 767px) {
+    .d-j_end {
+      justify-content: center; } }
 
 * {
   padding: 0;
