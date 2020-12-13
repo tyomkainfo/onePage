@@ -36,7 +36,8 @@ section.numbers {
       }
       @include max-screen(767px){
         width: 50%;
-        margin-bottom: 50px;
+        transform: scale(1.2);
+        margin-bottom: 60px;
       }
       @include max-screen(420px){
         width: 100%;
