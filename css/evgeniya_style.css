@@ -17,11 +17,8 @@
       font-family: "Font Awesome 5 Free";
       font-weight: 400;
       color: #8b8b8b;
-      font-size: 40px; }
-  h4 .item_serv .item_serv:nth-of-type(2):before {
-    content: ""; }
-  h4 .item_serv .item_serv:nth-of-type(3):before {
-    content: "\f3cd";
-    font-weight: 900; }
+      font-size: 40px;
+    }
+
 
 /*# sourceMappingURL=evgeniya_style.css.map */
