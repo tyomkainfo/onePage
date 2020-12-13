@@ -337,7 +337,7 @@ img {
   .we_design .bloc_text {
     max-width: 480px;
     text-align: left; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       .we_design .bloc_text {
         text-align: center; } }
     .we_design .bloc_text h1 {

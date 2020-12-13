@@ -17,7 +17,7 @@ $font_si_h1_a:12px;
  .bloc_text{
    max-width: 480px;
    text-align: left;
-   @include max-screen (768px){
+   @include max-screen (767px){
      text-align: center;}
 
 
