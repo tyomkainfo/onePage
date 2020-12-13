@@ -1,10 +1,126 @@
+header {
+  position: absolute;
+  top: 45px; }
+  header a {
+    display: block; }
+  header .d-flex {
+    justify-content: space-between;
+    align-items: center; }
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden; }
+
+.topnav a {
+  text-transform: uppercase;
+  float: right;
+  display: block;
+  text-align: center;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #191919;
+  font-family: Montserrat, sans-serif; }
+
+.topnav a:hover {
+  color: #10c9c3; }
+
+.topnav .icon {
+  display: none; }
+
+@media screen and (max-width: 676px) {
+  .topnav a {
+    display: none; }
+
+  .topnav a.icon {
+    float: right;
+    display: block; } }
+@media screen and (max-width: 676px) {
+  .topnav.responsive {
+    position: relative; }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left; } }
 section.numbers {
-  padding: 102px 0 105px;
+  padding: 101px 15px;
   background-color: #10c9c3;
   font-size: 12px;
   text-transform: uppercase; }
-  section.numbers p {
-    color: #fff; }
+  section.numbers .container.d-flex {
+    position: relative;
+    max-width: 1165px;
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+    @media screen and (max-width: 992px) {
+      section.numbers .container.d-flex {
+        padding: 0 15px 0; } }
+    section.numbers .container.d-flex .number.d-flex {
+      width: 266px; }
+      @media screen and (max-width: 992px) {
+        section.numbers .container.d-flex .number.d-flex {
+          display: block;
+          flex-wrap: wrap;
+          justify-content: center; } }
+      section.numbers .container.d-flex .number.d-flex img {
+        margin-right: 29px; }
+        @media screen and (max-width: 992px) {
+          section.numbers .container.d-flex .number.d-flex img {
+            display: block;
+            margin: 0 auto 20px; } }
+        @media screen and (max-width: 767px) {
+          section.numbers .container.d-flex .number.d-flex img {
+            cursor: pointer; }
+            section.numbers .container.d-flex .number.d-flex img:active + .paragraph {
+              display: block;
+              background-color: #239591;
+              width: 100%;
+              padding: 10px;
+              opacity: 1;
+              position: absolute;
+              transform: scale(1.5);
+              top: 99%;
+              left: 0; } }
+        @media screen and (max-width: 767px) {
+          section.numbers .container.d-flex .number.d-flex img:active + .paragraph {
+            transform: scale(1);
+            left: 0; } }
+        @media screen and (max-width: 420px) {
+          section.numbers .container.d-flex .number.d-flex img:active + .paragraph {
+            transform: scale(1); } }
+      section.numbers .container.d-flex .number.d-flex .paragraph {
+        align-content: space-between;
+        flex-wrap: wrap; }
+        @media screen and (max-width: 767px) {
+          section.numbers .container.d-flex .number.d-flex .paragraph {
+            display: none; } }
+        section.numbers .container.d-flex .number.d-flex .paragraph p {
+          display: block;
+          font-family: Montserrat, sans-serif;
+          font-size: 12px;
+          color: #fff;
+          text-align: left; }
+          @media screen and (max-width: 992px) {
+            section.numbers .container.d-flex .number.d-flex .paragraph p {
+              display: block;
+              text-align: center;
+              line-height: 12px; } }
+          section.numbers .container.d-flex .number.d-flex .paragraph p span {
+            display: block;
+            width: 100%;
+            font-size: 18px;
+            margin-right: 30px; }
+            @media screen and (max-width: 992px) {
+              section.numbers .container.d-flex .number.d-flex .paragraph p span {
+                margin: 0 auto 20px; } }
+          section.numbers .container.d-flex .number.d-flex .paragraph p:hover {
+            color: #d099c8; }
 
 .width-510 {
   max-width: 510px;

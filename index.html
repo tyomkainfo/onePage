@@ -13,28 +13,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header></header>
+<header>
+    <div class="container">
+        <div class="d-flex">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <div class="topnav" id="myTopnav">
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">work</a>
+                <a href="#">process</a>
+                <a href="#">services</a>
+                <a href="#">testimonials</a>
+                <a href="#">contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
 
-<section class="numbers d-flex">
-    <div class="number">
-        <img src="images/case_03.png" alt="case">
-        <p>548</p>
-        <p>projects completed</p>
-    </div>
-    <div class="number">
-        <img src="images/clock_03.png" alt="case">
-        <p>1465</p>
-        <p>WORKING HOURS</p>
-    </div>
-    <div class="number">
-        <img src="images/star_05.png" alt="case">
-        <p>612</p>
-        <p>POSITIVE FEEDBACKS</p>
-    </div>
-    <div class="number">
-        <img src="images/heart_07.png" alt="case">
-        <p>735</p>
-        <p>HAPPY CLIENTS</p>
+<section class="numbers">
+    <div class="container d-flex">
+        <div class="number d-flex">
+            <img src="images/case_03.png" alt="case">
+            <div class="paragraph">
+                <p><span>548</span></p>
+                <p>projects completed</p>
+            </div>
+        </div>
+        <div class="number d-flex">
+            <img src="images/clock_03.png" alt="case">
+            <div class="paragraph">
+                <p><span>1465</span></p>
+                <p>WORKING HOURS</p>
+            </div>
+        </div>
+        <div class="number d-flex">
+            <img src="images/star_05.png" alt="case">
+            <div class="paragraph">
+                <p><span>612</span></p>
+                <p>POSITIVE FEEDBACKS</p>
+            </div>
+        </div>
+        <div class="number d-flex">
+            <img src="images/heart_07.png" alt="case">
+            <div class="paragraph">
+                <p><span>735</span></p>
+                <p>HAPPY CLIENTS</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -72,20 +100,17 @@
         </div>
 
 
-
     </div>
 
 
 </section>
 
 
-
-
 <section class="need_a_P">
     <div class="container d-flex d-wrap main-box">
         <h2>Need a Project?</h2>
         <p class="width-540">Let us know what you're looking for in an agency. We'll take a look and see
-        if this could be the start of something beautiful.</p>
+            if this could be the start of something beautiful.</p>
         <form action="#" method="post" class="d-flex d-wrap">
             <input type="text" placeholder="Your Name" class="min-input">
             <input type="text" placeholder="Your Email" class="min-input">
@@ -96,5 +121,7 @@
     </div>
 </section>
 <footer></footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
