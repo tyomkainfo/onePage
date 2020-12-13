@@ -18,21 +18,19 @@ header .d-flex { justify-content: space-between; align-items: center; }
 section.numbers { padding: 101px 15px; background-color: #10c9c3; font-size: 12px; text-transform: uppercase; }
 section.numbers .container.d-flex { position: relative; max-width: 1165px; justify-content: space-between; flex-wrap: nowrap; }
 @media screen and (max-width: 992px) { section.numbers .container.d-flex { padding: 0 15px 0; } }
-section.numbers .container.d-flex .number.d-flex { width: 266px; }
+@media screen and (max-width: 767px) { section.numbers .container.d-flex { flex-wrap: wrap; } }
+section.numbers .container.d-flex .number.d-flex { width: 266px; transition: 0.6s; cursor: pointer; }
 @media screen and (max-width: 992px) { section.numbers .container.d-flex .number.d-flex { display: block; flex-wrap: wrap; justify-content: center; } }
+@media screen and (max-width: 767px) { section.numbers .container.d-flex .number.d-flex { width: 50%; margin-bottom: 50px; } }
+@media screen and (max-width: 420px) { section.numbers .container.d-flex .number.d-flex { width: 100%; } }
+section.numbers .container.d-flex .number.d-flex:hover { transform: scale(1.3); }
 section.numbers .container.d-flex .number.d-flex img { margin-right: 29px; }
 @media screen and (max-width: 992px) { section.numbers .container.d-flex .number.d-flex img { display: block; margin: 0 auto 20px; } }
-@media screen and (max-width: 767px) { section.numbers .container.d-flex .number.d-flex img { cursor: pointer; }
-  section.numbers .container.d-flex .number.d-flex img:active + .paragraph { display: block; background-color: #239591; width: 100%; padding: 10px; opacity: 1; position: absolute; transform: scale(1.5); top: 99%; left: 0; } }
-@media screen and (max-width: 767px) { section.numbers .container.d-flex .number.d-flex img:active + .paragraph { transform: scale(1); left: 0; } }
-@media screen and (max-width: 420px) { section.numbers .container.d-flex .number.d-flex img:active + .paragraph { transform: scale(1); } }
 section.numbers .container.d-flex .number.d-flex .paragraph { align-content: space-between; flex-wrap: wrap; }
-@media screen and (max-width: 767px) { section.numbers .container.d-flex .number.d-flex .paragraph { display: none; } }
 section.numbers .container.d-flex .number.d-flex .paragraph p { display: block; font-family: Montserrat, sans-serif; font-size: 12px; color: #fff; text-align: left; }
 @media screen and (max-width: 992px) { section.numbers .container.d-flex .number.d-flex .paragraph p { display: block; text-align: center; line-height: 12px; } }
 section.numbers .container.d-flex .number.d-flex .paragraph p span { display: block; width: 100%; font-size: 18px; margin-right: 30px; }
 @media screen and (max-width: 992px) { section.numbers .container.d-flex .number.d-flex .paragraph p span { margin: 0 auto 20px; } }
-section.numbers .container.d-flex .number.d-flex .paragraph p:hover { color: #d099c8; }
 
 .width-510 { max-width: 510px; width: 100%; margin: auto; margin-bottom: 58px; }
 

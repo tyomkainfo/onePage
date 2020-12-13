@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="попытка закоммитить scss">
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/07609624b215ab4e2053115925666a0fba86a599/_kaleriia_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/alex_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/alex_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/valli_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/valli_style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +51,6 @@
     <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -167,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607873525306</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="comment">
+      <created>1607885073502</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607885073502</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +194,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="comment" />
     <MESSAGE value="comment Yevhenii" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html" />
     <MESSAGE value="add valli_style.scss" />
@@ -214,14 +205,15 @@
     <MESSAGE value="add @import" />
     <MESSAGE value="попытка закоммитить scss" />
     <MESSAGE value="alex 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="alex 1" />
+    <MESSAGE value="comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1607729187640">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607885071154">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607729187640" />
-    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725036423" />
+    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607885071154" />
     <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607724281836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -246,20 +238,20 @@
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607728691741" />
     <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607724282970" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1607729080569">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="387" y="136" key="Vcs.Push.Dialog.v2" timestamp="1607885076504">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607729080569" />
-    <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725044913" />
+    <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607885076504" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607724512000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724512000" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607725321248">
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607890065360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607625050258" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607725321248" />
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890065360" />
     <state x="766" y="226" key="scopes" timestamp="1607719638130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
