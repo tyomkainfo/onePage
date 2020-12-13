@@ -1,48 +1,70 @@
+$bag_col_h1: #e9e9e9;
+$font_h1: "Montserrat m";
+$font_si_h1: 38px;
+$font_h1_p:"Nunito Sans r";
+$font_si_h1_p:18px;
+$color_h1_p:#787878;
+$color_text_h1_a:white;
+$font_h1_a:"Montserrat m";
+$font_si_h1_a:12px;
 
 .we_design {
   padding-top: 238px;
   padding-bottom: 200px;
-  background-color: #e9e9e9;
+  background-color: $bag_col_h1;
 
  .bloc_text{
    max-width: 480px;
    text-align: left;
+   @include max-screen (767px){
+     text-align: center;}
+
 
    h1{
-     font-family:"Montserrat m";
-     font-size:38px;
+     font-family:$font_h1;
+     font-size:$font_si_h1;
      margin-bottom: 30px;
+
    }
 
    p{
      text-align: left;
-     font-family:"Nunito Sans r";
-     font-size: 18px;
-     color: #787878;
+     font-family:$font_h1_p;
+     font-size: $font_si_h1_p;
+     color: $color_h1_p;
      line-height: 28px;
      margin-bottom: 40px;
+     @include max-screen (767px){
+       text-align: center;
+       margin: 0 15px;}
    }
 
    a{
      display: inline-block;
      padding: 20px 45px;
      background-color: $sub-color;
-     color: white;
+     color: $color_text_h1_a;
      font-size:12px ;
-     font-family: "Montserrat m";
+     font-family:$font_h1_a;
      text-transform: uppercase;
      text-decoration: none;
-
+     @include max-screen (767px){
+       margin-top: 20px;}
+     }
    }
    a:hover{
      color: $sub-color;
-     background-color: white;
+     background-color: $color_text_h1_a;
+     border: 2px solid $sub-color;
    }
  }
-  }
+
 
 .d-j_end{
   justify-content: flex-end;
+  @include max-screen (767px){
+    justify-content: center;
+  }
 }
 
 

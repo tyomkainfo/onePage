@@ -27,8 +27,8 @@
       text-decoration: none; }
     .we_design .bloc_text a:hover {
       color: #10c9c3;
-      background-color: white; }
-
+      background-color: white;
+    }
 .d-j_end {
   justify-content: flex-end; }
 
