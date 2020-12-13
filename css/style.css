@@ -286,6 +286,17 @@ h4:before {
 img {
   color: #10c9c3; }
 
+.about-us {
+  padding-top: 102px;
+  padding-bottom: 97px; }
+  .about-us .text-about_us {
+    max-width: 581px;
+    margin: auto; }
+  .about-us .logo-pic {
+    justify-content: space-around;
+    display: flex;
+    padding-top: 31px; }
+
 .skills {
   height: 570px;
   display: flex;
