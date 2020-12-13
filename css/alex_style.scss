@@ -1,13 +1,42 @@
+
 .we_design {
   padding-top: 238px;
+  padding-bottom: 200px;
   background-color: #e9e9e9;
 
  .bloc_text{
    max-width: 480px;
    text-align: left;
 
+   h1{
+     font-family:"Montserrat m";
+     font-size:38px;
+     margin-bottom: 30px;
+   }
+
    p{
      text-align: left;
+     font-family:"Nunito Sans r";
+     font-size: 18px;
+     color: #787878;
+     line-height: 28px;
+     margin-bottom: 40px;
+   }
+
+   a{
+     display: inline-block;
+     padding: 20px 45px;
+     background-color: $sub-color;
+     color: white;
+     font-size:12px ;
+     font-family: "Montserrat m";
+     text-transform: uppercase;
+     text-decoration: none;
+
+   }
+   a:hover{
+     color: $sub-color;
+     background-color: white;
    }
  }
   }
