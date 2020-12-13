@@ -363,7 +363,8 @@ img {
       font-size: 12px;
       font-family: "Montserrat m";
       text-transform: uppercase;
-      text-decoration: none; }
+      text-decoration: none;
+      border: 2px solid #10c9c3; }
       @media screen and (max-width: 767px) {
         .we_design .bloc_text a {
           margin-top: 20px; } }

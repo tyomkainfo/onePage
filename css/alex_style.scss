@@ -49,6 +49,7 @@ $font_si_h1_a:12px;
      font-family:$font_h1_a;
      text-transform: uppercase;
      text-decoration: none;
+     border: 2px solid $sub-color;
      @include max-screen (767px){
        margin-top: 20px;}
      }
