@@ -31,8 +31,22 @@ section.numbers .container.d-flex .number.d-flex .paragraph p { display: block; 
 @media screen and (max-width: 992px) { section.numbers .container.d-flex .number.d-flex .paragraph p { display: block; text-align: center; line-height: 12px; } }
 section.numbers .container.d-flex .number.d-flex .paragraph p span { display: block; width: 100%; font-size: 18px; margin-right: 30px; }
 @media screen and (max-width: 992px) { section.numbers .container.d-flex .number.d-flex .paragraph p span { margin: 0 auto 20px; } }
+/*
+Error: File to import not found or unreadable: Evgeniya_style.
+        on line 9 of style.scss
 
 .width-510 { max-width: 510px; width: 100%; margin: auto; margin-bottom: 58px; }
+4: $main-bg-color: #f5f5f5;
+5: $sub-color: #10c9c3;
+6:
+7: @import "valli_style";
+8: @import "Anastasia_style";
+9: @import "Evgeniya_style";
+10: @import "kat_style";
+11: @import "kaleriia_style";
+12: @import "ivan_style";
+13:
+14: * {
 
 .video { width: 100%; height: 570px; position: relative; margin: auto; }
 
@@ -121,3 +135,48 @@ h2 { display: inline-block; width: 100%; font-size: 30px; font-family: Montserra
 p { display: inline-block; font-size: 16px; font-family: Nunito Sans, sans-serif; color: #787878; line-height: 24px; text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:9
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.7.4/bin/scss:13:in `<top (required)>'
+C:/Ruby24/bin/scss:23:in `load'
+C:/Ruby24/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: Evgeniya_style.\A         on line 9 of style.scss\A \A 4: $main-bg-color: #f5f5f5;\A 5: $sub-color: #10c9c3;\A 6: \A 7: @import \"valli_style\";\A 8: @import \"Anastasia_style\";\A 9: @import \"Evgeniya_style\";\A 10: @import \"kat_style\";\A 11: @import \"kaleriia_style\";\A 12: @import \"ivan_style\";\A 13: \A 14: * {"; }
