@@ -13,10 +13,11 @@ $font_si_h1_a:12px;
   padding-bottom: 200px;
   background-color: $bag_col_h1;
 
+
  .bloc_text{
    max-width: 480px;
    text-align: left;
-   @include max-screen (767px){
+   @include max-screen (768px){
      text-align: center;}
 
 
@@ -38,8 +39,6 @@ $font_si_h1_a:12px;
        text-align: center;
        margin: 0 15px;}
    }
-
-
 
    a{
      display: inline-block;
