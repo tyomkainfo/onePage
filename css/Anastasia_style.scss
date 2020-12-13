@@ -1,10 +1,8 @@
-$font-main: Montserrat, sans-serif;
-$font-sub: Nunito Sans, sans-serif;
-$font-main-color: #191919;
-$main-bg-color: #f5f5f5;
-$sub-color: #10c9c3;
-
-
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 .width-510 {
   max-width: 510px;
   width: 100%;
@@ -16,6 +14,12 @@ $sub-color: #10c9c3;
   height: 570px;
   position: relative;
   margin: auto;
+  @include max-screen (768px) {
+    height: 300px;
+  }
+  @include max-screen (414px) {
+    height: 180px;
+  }
 }
 .width-540 {
   max-width: 540px;
@@ -43,6 +47,10 @@ $sub-color: #10c9c3;
     }
     .min-input {
       max-width: 320px;
+      @include max-screen (768px) {
+        max-width: 670px;
+      }
+    }
     }
     textarea {
       width: 100%;
@@ -69,9 +77,10 @@ $sub-color: #10c9c3;
       border: none;
       outline: none;
       margin: auto;
+      &:hover {
+        background-color: white;
+        color: $sub-color;
+        border: 2px solid $sub-color;
+      }
     }
   }
-}
-
-
-
