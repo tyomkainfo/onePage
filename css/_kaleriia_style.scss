@@ -1,24 +1,40 @@
 $font-main: Montserrat, sans-serif;
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 .skills {
-  height: 570px;
   display: flex;
   flex-wrap: wrap;
   .right-skills {
+    padding: 165px 15px;
     background-color: #f8f9f9;
     width: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    @include max-screen (767px) {
+      width: 100%;
+      padding: 40px 20px;
+    }
     .skills-item {
       max-width: 500px;
       width: 100%;
       margin-right: 90px;
+      @include max-screen (767px) {
+        margin-right: 30px;
+      }
       h3 {
         font-size: 30px;
         color: #171717;
         font-family: $font-main;
         margin-bottom: 40px;
+        @include max-screen (767px) {
+          margin-bottom: 20px;
+          font-size: 20px;
+        }
       }
       span {
         display: block;
@@ -31,7 +47,10 @@ $font-main: Montserrat, sans-serif;
         height: 3px;
       }
       .progressbar:not(:last-child) {
-        margin-bottom: 40px
+        margin-bottom: 40px;
+        @include max-screen (767px) {
+          margin-bottom: 20px;
+        }
       }
       .ui-widget-content {
         border: none;
@@ -52,10 +71,19 @@ $font-main: Montserrat, sans-serif;
 
   }
   .left-skills {
+     padding: 165px 15px;
      background-color: #e9e9e9;
      width: 50%;
+    @include max-screen (767px) {
+      width: 100%;
+      height: 278px;
+      padding: 40px 15px;
+    }
    }
 }
+
+
+
 
 
 
