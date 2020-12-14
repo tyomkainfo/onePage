@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAGA,SAAU;EACR,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,IAAI;EAEpB,wBAAe;IACb,SAAS,EAAE,KAAK;IAChB,MAAM,EAAE,IAAI;EAEd,mBAAU;IACR,eAAe,EAAE,YAAY;IAC7B,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,IAAI",
+"sources": ["yevhenii_style.scss"],
 "names": [],
 "file": "yevhenii_style.css"
 }
