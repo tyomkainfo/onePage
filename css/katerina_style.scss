@@ -3,13 +3,6 @@ $font-main: Montserrat, sans-serif;
 .gallery {
   max-width: 1366px;
   margin: auto;
-}
-.foto{
-  max-width: 25%;
-  img{
-    width: 100%;
-    display: block;
-  }
   a{
     display: inline-block;
     background-color: #f5f5f5;
@@ -21,5 +14,12 @@ $font-main: Montserrat, sans-serif;
     font-size: 12px;
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+}
+.foto{
+  max-width: 25%;
+  img{
+    width: 100%;
+    display: block;
   }
 }
