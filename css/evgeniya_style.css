@@ -4,7 +4,18 @@
 .item_serv {
   width: 25%;
   padding: 0 15px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 60px;
+  transition: 1s; }
+  @media screen and (max-width: 992px) {
+    .item_serv {
+      width: 33%; } }
+  @media screen and (max-width: 767px) {
+    .item_serv {
+      width: 50%; } }
+  @media screen and (max-width: 415px) {
+    .item_serv {
+      width: 100%; } }
   .item_serv h4 {
     font-size: 12px;
     font-weight: 500;
@@ -18,7 +29,72 @@
       font-weight: 400;
       color: #8b8b8b;
       font-size: 40px;
-    }
+      margin-bottom: 30px; }
 
+.item_serv:nth-of-type(2) h4:before {
+  content: "\f0c6";
+  font-weight: 900; }
+
+.item_serv:nth-of-type(3) h4:before {
+  content: "\f3cd";
+  font-weight: 900; }
+
+.item_serv:nth-of-type(4) h4:before {
+  content: "\f11b";
+  font-weight: 900; }
+
+.item_serv:nth-of-type(5) {
+  margin-bottom: 0; }
+  @media screen and (max-width: 767px) {
+    .item_serv:nth-of-type(5) {
+      margin-bottom: 60px; } }
+  @media screen and (max-width: 415px) {
+    .item_serv:nth-of-type(5) {
+      margin-bottom: 60px; } }
+  .item_serv:nth-of-type(5) h4:before {
+    content: "\f072";
+    font-weight: 900;
+    transform: rotate(-45deg); }
+
+.item_serv:nth-of-type(6) {
+  margin-bottom: 0; }
+  @media screen and (max-width: 767px) {
+    .item_serv:nth-of-type(6) {
+      margin-bottom: 60px; } }
+  @media screen and (max-width: 415px) {
+    .item_serv:nth-of-type(6) {
+      margin-bottom: 60px; } }
+  .item_serv:nth-of-type(6) h4:before {
+    content: "\f005"; }
+
+.item_serv:nth-of-type(7) {
+  margin-bottom: 0; }
+  @media screen and (max-width: 767px) {
+    .item_serv:nth-of-type(7) {
+      margin-bottom: 60px; } }
+  @media screen and (max-width: 415px) {
+    .item_serv:nth-of-type(7) {
+      margin-bottom: 60px; } }
+  .item_serv:nth-of-type(7) h4:before {
+    content: "\f0d0";
+    font-weight: 900; }
+
+.item_serv:nth-of-type(8) {
+  margin-bottom: 0; }
+  .item_serv:nth-of-type(8) h4:before {
+    content: "\f576";
+    font-weight: 900; }
+
+.item_serv:hover {
+  cursor: pointer;
+  transform: scale(1.2); }
+
+.item_serv:hover
+h4:before {
+  color: #10c9c3; }
+
+.item_serv:hover
+img {
+  color: #10c9c3; }
 
 /*# sourceMappingURL=evgeniya_style.css.map */
