@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/yevhenii_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/yevhenii_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,6 @@
       <workItem from="1607719523621" duration="3241000" />
       <workItem from="1607722956848" duration="1089000" />
       <workItem from="1607724513310" duration="798000" />
-      <workItem from="1607888239176" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="comment">
       <created>1607616500355</created>
@@ -218,11 +215,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="mobile version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607890110749">
+    <state x="552" y="178" key="#Notifications" timestamp="1607974656692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1607974656692" />
+    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607974887872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607729187640" />
-    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890110749" />
+    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607974887872" />
     <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607724281836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,23 +253,18 @@
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607729080569" />
     <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890116244" />
-    <state x="467" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1607888252032">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607724512000">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607888252032" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724512000" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607890691449">
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607974907415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607625050258" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890691449" />
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607974907415" />
     <state x="766" y="226" key="scopes" timestamp="1607719638130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="226" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1607719638130" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607888688508">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607888688508" />
   </component>
 </project>

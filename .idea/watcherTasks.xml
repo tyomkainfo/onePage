@@ -27,5 +27,7 @@
     <enabled-global>
       <option value="SCSS" />
     </enabled-global>
+    </TaskOptions>
+    </TaskOptions>
   </component>
 </project>

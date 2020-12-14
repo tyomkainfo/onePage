@@ -1,12 +1,11 @@
 $bag_col_h1: #e9e9e9;
-$font_h1: "Montserrat m";
 $font_si_h1: 38px;
-$font_h1_p:"Nunito Sans r";
 $font_si_h1_p:18px;
 $color_h1_p:#787878;
 $color_text_h1_a:white;
-$font_h1_a:"Montserrat m";
 $font_si_h1_a:12px;
+$font-main: Montserrat, sans-serif;
+$font-sub: Nunito Sans, sans-serif;
 
 .we_design {
   padding-top: 238px;
@@ -22,7 +21,7 @@ $font_si_h1_a:12px;
 
 
    h1{
-     font-family:$font_h1;
+     font-family:$font-main;
      font-size:$font_si_h1;
      margin-bottom: 30px;
 
@@ -30,7 +29,7 @@ $font_si_h1_a:12px;
 
    p{
      text-align: left;
-     font-family:$font_h1_p;
+     font-family:$font-sub;
      font-size: $font_si_h1_p;
      color: $color_h1_p;
      line-height: 28px;
@@ -46,7 +45,7 @@ $font_si_h1_a:12px;
      background-color: $sub-color;
      color: $color_text_h1_a;
      font-size:12px ;
-     font-family:$font_h1_a;
+     font-family:$font-sub;
      text-transform: uppercase;
      text-decoration: none;
      border: 2px solid $sub-color;
