@@ -23,7 +23,7 @@
   width: 100%;
   display: block;
 }
-.foto .foto:hover {
+.foto:hover {
   background-color: #252525;
 }
 

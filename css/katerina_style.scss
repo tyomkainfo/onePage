@@ -1,5 +1,11 @@
 $font-main: Montserrat, sans-serif;
 
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
 .gallery {
   max-width: 1366px;
   margin: auto;
@@ -19,6 +25,8 @@ $font-main: Montserrat, sans-serif;
 }
 .foto{
   max-width: 25%;
+  @include max-screen(767px) {max-width: 50%;
+  }
   img{
     width: 100%;
     display: block;
