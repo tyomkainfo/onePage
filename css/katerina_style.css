@@ -1,22 +1,30 @@
 .gallery {
   max-width: 1366px;
-  margin: auto; }
+  margin: auto;
+}
+.gallery a {
+  display: inline-block;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-decoration: none;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #8e8e8e;
+  font-size: 12px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
 
 .foto {
-  max-width: 25%; }
-  .foto img {
-    width: 100%;
-    display: block; }
-  .foto a {
-    display: inline-block;
-    background-color: #f5f5f5;
-    text-decoration: none;
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    color: #8e8e8e;
-    font-size: 12px;
-    padding-top: 45px;
-    padding-bottom: 45px; }
+  max-width: 25%;
+}
+.foto img {
+  width: 100%;
+  display: block;
+}
+.foto .foto:hover {
+  background-color: #252525;
+}
 
 /*# sourceMappingURL=katerina_style.css.map */
