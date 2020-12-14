@@ -1,6 +1,20 @@
 $font-main: Montserrat, sans-serif;
 $font-sub: Nunito Sans, sans-serif;
 
+.about-us {
+  padding-top: 102px;
+  padding-bottom: 97px;
+
+  .text-about_us {
+    max-width: 581px;
+    margin: auto;
+  }
+  .logo-pic {
+    justify-content: space-around;
+    display: flex;
+    padding-top: 32px;
+  }
+}
 
 
 

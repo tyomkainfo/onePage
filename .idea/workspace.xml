@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e47205-8e27-4f25-8368-1f5b0ac5a9a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/Anastasia_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/Anastasia_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/evgeniya_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/valli_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/valli_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/yevhenii_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/3f923cd620f1d7ff70782051d62d358d3aa3b861/yevhenii_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/42f498259cdb2f161ff7cbac9fdeb24f4c64ae06/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/42f498259cdb2f161ff7cbac9fdeb24f4c64ae06/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/evgeniya_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/evgeniya_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/yevhenii_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/yevhenii_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +24,31 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>form</find>
+      <find>map</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lQuF9d0s3OfaAG4eUAZPZCNxOT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby26-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -64,10 +66,8 @@
       <workItem from="1607616307330" duration="313000" />
       <workItem from="1607719523621" duration="3241000" />
       <workItem from="1607722956848" duration="1089000" />
-      <workItem from="1607724513310" duration="2962000" />
       <workItem from="1607724513310" duration="798000" />
-      <workItem from="1607900825416" duration="3033000" />
-      <workItem from="1607957813070" duration="244000" />
+      <workItem from="1607888239176" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="comment">
       <created>1607616500355</created>
@@ -146,42 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607725040828</updated>
     </task>
-    <task id="LOCAL-00012" summary="add @import">
-      <created>1607725345060</created>
+    <task id="LOCAL-00012" summary="alex 1">
+      <created>1607873525306</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1607725345060</updated>
+      <updated>1607873525306</updated>
     </task>
-    <task id="LOCAL-00013" summary="modified scss">
-      <created>1607725985741</created>
+    <task id="LOCAL-00013" summary="comment">
+      <created>1607885073502</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1607725985741</updated>
+      <updated>1607885073502</updated>
     </task>
-    <task id="LOCAL-00014" summary="modified scss">
-      <created>1607776713640</created>
+    <task id="LOCAL-00014" summary="mobile version">
+      <created>1607890114126</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1607776713640</updated>
+      <updated>1607890114126</updated>
     </task>
-    <task id="LOCAL-00015" summary="modified scss">
-      <created>1607786312223</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1607786312223</updated>
-    </task>
-    <task id="LOCAL-00016" summary="modified scss">
-      <created>1607787244508</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1607787244508</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +201,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comment" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="comment Yevhenii" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html" />
     <MESSAGE value="add valli_style.scss" />
@@ -226,24 +212,25 @@
     <MESSAGE value="change name of file" />
     <MESSAGE value="add @import" />
     <MESSAGE value="попытка закоммитить scss" />
-    <MESSAGE value="modified scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified scss" />
+    <MESSAGE value="alex 1" />
+    <MESSAGE value="comment" />
+    <MESSAGE value="mobile version" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607787241530">
+    <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607890110749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607625135088" />
-    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607787241530" />
-    <state x="530" y="152" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607897088511">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1607729187640" />
+    <state x="433" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890110749" />
+    <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog" timestamp="1607724281836">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="152" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1607897088511" />
+    <state x="575" y="242" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1607624717269" />
     <state x="808" y="346" width="731" height="666" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724281836" />
-    <state x="678" y="226" key="FileChooserDialogImpl" timestamp="1607897086266">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="953" y="323" key="FileChooserDialogImpl" timestamp="1607722921817">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="226" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607897086266" />
     <state x="953" y="323" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607722921817" />
     <state x="181" y="76" key="MergeDialog" timestamp="1607724109858">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -255,33 +242,33 @@
     </state>
     <state x="395" y="78" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1607620893629" />
     <state x="555" y="111" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724109874" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1607897094748">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1607728691741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607897094748" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607728691741" />
     <state x="259" y="9" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607724282970" />
-    <state x="387" y="136" key="Vcs.Push.Dialog.v2" timestamp="1607787247631">
+    <state x="387" y="136" key="Vcs.Push.Dialog.v2" timestamp="1607890116244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607729080569" />
-    <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607787247631" />
-    <state x="467" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1607957942563">
+    <state x="387" y="136" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890116244" />
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1607888252032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607957942563" />
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1607888252032" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607724512000" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607787621459">
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607890691449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="492" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607625050258" />
-    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607787621459" />
-    <state x="591" y="217" width="737" height="606" key="find.popup" timestamp="1607780574529">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="591" y="217" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607780574529" />
+    <state x="692" y="399" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607890691449" />
     <state x="766" y="226" key="scopes" timestamp="1607719638130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="226" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1607719638130" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607888688508">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607888688508" />
   </component>
 </project>

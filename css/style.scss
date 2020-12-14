@@ -5,8 +5,8 @@
 @import "yevhenii_style";
 @import "kaleriia_style";
 @import "alex_style";
+@import "kat_style";
 //@import "polina_style";
-//@import "kat_style";
 //@import "ivan_style";
 
 
@@ -16,6 +16,9 @@ $font-sub: Nunito Sans, sans-serif;
 $font-main-color: #191919;
 $main-bg-color: #f5f5f5;
 $sub-color: #10c9c3;
+
+@import "valli_style";
+@import "Anastasia_style";
 
 * {
   padding: 0;
@@ -52,3 +55,4 @@ p {
   line-height: 24px;
   text-align: center;
 }
+
