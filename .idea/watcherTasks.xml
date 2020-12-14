@@ -3,6 +3,8 @@
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="false">
       <option name="arguments" value="--style compact --no-cache --update $FileName$:$FileNameWithoutExtension$.css" />
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileName$:$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />

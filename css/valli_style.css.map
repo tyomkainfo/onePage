@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,eAAgB;EACd,gBAAgB,EAAE,OAAO;EACzB,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,IAAI",
+"sources": ["../../../../%D0%96%D0%B5%D0%BD%D1%8F/LEMON/onePage/css/valli_style.scss"],
 "names": [],
 "file": "valli_style.css"
 }

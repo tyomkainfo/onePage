@@ -1,0 +1,169 @@
+$font-main: Montserrat, sans-serif;
+$font-sub: Nunito Sans, sans-serif;
+$font-main-color: #191919;
+$main-bg-color: #f5f5f5;
+$sub-color: #10c9c3;
+
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+.services {
+  background-color: $main-bg-color;
+  }
+
+.item_serv {
+  width: 25%;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  transition: 1s;
+  @include max-screen(992px) {
+    width: 33%;
+  }
+  @include max-screen(767px) {
+     width: 50%;
+  }
+  @include max-screen(415px) {
+    width: 100%;
+  }
+ // .img_serv{
+ //   margin: auto;
+ //   width: 40px;
+//    height: 40px;
+//    img {
+//      display: block;
+//      width: 100%;
+//    }
+//  }
+  h4 {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: $font-main;
+    margin-bottom: 22px;
+
+    &:before {
+      content: "\f3a5";
+      display: block;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      color: #8b8b8b;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+  }
+}
+.item_serv{
+  &:nth-of-type(2) h4{
+    &:before{
+      content: "\f0c6";
+      font-weight: 900;
+    }
+  }
+}
+.item_serv{
+  &:nth-of-type(3) h4{
+    &:before{
+      content: "\f3cd";
+      font-weight: 900;
+    }
+  }
+}
+.item_serv{
+  &:nth-of-type(4) h4{
+    &:before{
+      content: "\f11b";
+      font-weight: 900;
+    }
+  }
+}
+.item_serv {
+  &:nth-of-type(5) {
+    margin-bottom: 0;
+    @include max-screen(767px) {
+      margin-bottom: 60px;
+    }
+    @include max-screen(415px) {
+      margin-bottom: 60px;
+    }
+    h4 {
+      &:before {
+        content: "\f072";
+        font-weight: 900;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+.item_serv {
+  &:nth-of-type(6) {
+    margin-bottom: 0;
+    @include max-screen(767px) {
+      margin-bottom: 60px;
+    }
+    @include max-screen(415px) {
+      margin-bottom: 60px;
+    }
+    h4 {
+      &:before {
+        content: "\f005";
+              }
+    }
+  }
+}
+.item_serv {
+  &:nth-of-type(7) {
+    margin-bottom: 0;
+    @include max-screen(767px) {
+      margin-bottom: 60px;
+    }
+    @include max-screen(415px) {
+      margin-bottom: 60px;
+    }
+    h4 {
+      &:before {
+        content: "\f0d0";
+        font-weight: 900;
+      }
+    }
+  }
+}
+.item_serv{
+  &:nth-of-type(8){
+margin-bottom: 0;
+  h4{
+    &:before{
+      content: "\f576";
+      font-weight: 900;
+      }
+  }
+}
+}
+.item_serv{
+  &:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+  }
+}
+
+.item_serv{
+  &:hover
+   h4{
+    &:before{
+      color: #10c9c3;
+    }
+  }
+}
+.item_serv{
+  &:hover
+  img{
+         color: #10c9c3;
+
+  }
+}
+

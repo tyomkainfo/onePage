@@ -1,3 +1,8 @@
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 .width-510 {
   max-width: 510px;
   width: 100%;
@@ -9,6 +14,12 @@
   height: 570px;
   position: relative;
   margin: auto;
+  @include max-screen (768px) {
+    height: 300px;
+  }
+  @include max-screen (414px) {
+    height: 180px;
+  }
 }
 .width-540 {
   max-width: 540px;
@@ -36,6 +47,10 @@
     }
     .min-input {
       max-width: 320px;
+      @include max-screen (768px) {
+        max-width: 670px;
+      }
+    }
     }
     textarea {
       width: 100%;
@@ -62,6 +77,10 @@
       border: none;
       outline: none;
       margin: auto;
+      &:hover {
+        background-color: white;
+        color: $sub-color;
+        border: 2px solid $sub-color;
+      }
     }
   }
-}
