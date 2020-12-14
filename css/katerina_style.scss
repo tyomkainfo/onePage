@@ -5,6 +5,7 @@ $font-main: Montserrat, sans-serif;
   margin: auto;
   a{
     display: inline-block;
+    width:100%;
     background-color: #f5f5f5;
     text-decoration: none;
     text-align: center;
@@ -21,5 +22,8 @@ $font-main: Montserrat, sans-serif;
   img{
     width: 100%;
     display: block;
+  }
+  .foto:hover{
+    background-color: #252525;
   }
 }
