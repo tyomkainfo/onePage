@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-    <TaskOptions isEnabled="false">
-      <option name="arguments" value="--style compact --no-cache --update $FileName$:$FileNameWithoutExtension$.css" />
-    <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileName$:$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -17,7 +14,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="C:/Ruby26-x64/bin/scss" />
+      <option name="program" value="C:/Ruby24/bin/scss" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
@@ -27,7 +24,5 @@
     <enabled-global>
       <option value="SCSS" />
     </enabled-global>
-    </TaskOptions>
-    </TaskOptions>
   </component>
 </project>
