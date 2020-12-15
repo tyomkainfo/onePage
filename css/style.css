@@ -720,7 +720,8 @@ img {
   margin-bottom: 13px;
   font-size: 15px;
   display: block;
-  transition: .3s all; }
+  transition: .3s all;
+  font-family: Nunito Sans, sans-serif; }
 
 .footer__link__one a:hover,
 .footer__link__two a:hover,

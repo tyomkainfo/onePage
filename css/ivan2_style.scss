@@ -49,6 +49,7 @@
   font-size: 15px;
   display: block;
   transition: .3s all;
+  font-family: $font-sub;
 }
 
 .footer__link__one a:hover,
@@ -56,8 +57,6 @@
 .footer__link__three a:hover{
   color: #fff;
 }
-
-
 
 @media (max-width: 992px){
   .footer__inner{
