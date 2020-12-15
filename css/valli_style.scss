@@ -18,6 +18,7 @@ section.numbers {
     position: relative;
     max-width: 1165px;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     @include max-screen(992px) {
       padding: 0 15px 0;
