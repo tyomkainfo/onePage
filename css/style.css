@@ -332,7 +332,8 @@ section.numbers {
     color: #787878;
     border: none;
     outline: none;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    resize: none; }
   .need_a_P button {
     max-width: 180px;
     width: 100%;
@@ -900,7 +901,8 @@ section.numbers {
     color: #787878;
     border: none;
     outline: none;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    resize: none; }
   .need_a_P button {
     max-width: 180px;
     width: 100%;
