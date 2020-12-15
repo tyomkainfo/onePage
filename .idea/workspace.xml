@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0351ab-4f25-4513-a562-ca5e025c467f" name="Default Changelist" comment="change mobile version">
-      <change afterPath="$PROJECT_DIR$/css/ivan2_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="ab0351ab-4f25-4513-a562-ca5e025c467f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/_kaleriia_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/_kaleriia_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/alex_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/alex_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/evgeniya_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/evgeniya_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/mi_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/mi_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/yevhenii_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/yevhenii_style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +165,7 @@
       <workItem from="1607719523621" duration="3241000" />
       <workItem from="1607722956848" duration="1089000" />
       <workItem from="1607724513310" duration="798000" />
-      <workItem from="1608030754237" duration="531000" />
+      <workItem from="1608030754237" duration="1616000" />
     </task>
     <task id="LOCAL-00001" summary="comment">
       <created>1607616500355</created>
@@ -284,15 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607893396022</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="change ivan file into scss">
+      <created>1608031542847</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608031542847</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6830000" />
+    <option name="totallyTimeSpent" value="7915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -390,7 +384,8 @@
     <MESSAGE value="comment" />
     <MESSAGE value="mobile version" />
     <MESSAGE value="change mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="change mobile version" />
+    <MESSAGE value="change ivan file into scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="change ivan file into scss" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607890110749">
