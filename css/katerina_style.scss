@@ -58,6 +58,8 @@ $font-main: Montserrat, sans-serif;
   }
   :hover::before{
     content:"\f06e";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
     width: 30px;
     display: block;
     height: 20px;
