@@ -1,3 +1,4 @@
+$font-main: Montserrat, sans-serif;
 
 /*
  *  Owl Carousel - Core
@@ -17,19 +18,21 @@
 
 
   .item{
-    padding: 116px 15px;
+    padding: 176px 15px 106px;
     max-width: 880px;
     margin: auto;
 
     .review{
       color: white;
-      font-family: "Montserrat m";
+      font-family: $font-main;
       font-size: 24px;
+      font-weight: 500;
       margin-bottom: 40px;
+      line-height: 36px;
     }
 
     .reviewer{
-      font-family: "Montserrat m";
+      font-family: $font-main;
       font-size: 12px;
       color: white;
       text-transform: uppercase;
@@ -166,8 +169,8 @@ $nav-color: 			$color-white !default;
 $nav-color-hover:		$color-white !default;
 $nav-font-size: 		14px !default;
 $nav-rounded: 			3px !default;
-$nav-margin: 			5px !default;
-$nav-padding: 			4px 7px !default;
+$nav-margin: 			0 /*5px*/ !default;
+$nav-padding: 			0 /*4px 7px*/ !default;
 $nav-background: 		$color-gray !default;
 $nav-background-hover:	$color-base !default;
 $nav-disabled-opacity: 	0.5 !default;
@@ -185,7 +188,6 @@ $dot-background-active:	$color-base !default;
 .owl-theme {
   // Styling Next and Prev buttons
   .owl-nav {
-    margin-top: 10px;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
 
@@ -212,9 +214,6 @@ $dot-background-active:	$color-base !default;
   }
 
   // Styling dots
-  .owl-nav.disabled + .owl-dots {
-    margin-top: 10px;
-  }
 
   .owl-dots {
     text-align: center;
