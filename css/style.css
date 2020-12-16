@@ -234,7 +234,6 @@ section.numbers {
     position: relative;
     max-width: 1165px;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: nowrap; }
     @media screen and (max-width: 992px) {
       section.numbers .container.d-flex {
@@ -243,6 +242,7 @@ section.numbers {
       section.numbers .container.d-flex {
         flex-wrap: wrap; } }
     section.numbers .container.d-flex .number.d-flex {
+      align-items: center;
       width: 266px;
       transition: 0.6s;
       cursor: pointer; }

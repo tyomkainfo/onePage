@@ -9,24 +9,28 @@ $sub-color: #10c9c3;
     @content;
   }
 }
+
+
 section.numbers {
   padding: 101px 15px;
   background-color: $sub-color;
   font-size: 12px;
   text-transform: uppercase;
-  .container.d-flex{
+
+  .container.d-flex {
     position: relative;
     max-width: 1165px;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: nowrap;
     @include max-screen(992px) {
       padding: 0 15px 0;
     }
-    @include max-screen(767px){
+    @include max-screen(767px) {
       flex-wrap: wrap;
     }
+
     .number.d-flex {
+      align-items: center;
       width: 266px;
       transition: 0.6s;
       cursor: pointer;
@@ -35,17 +39,19 @@ section.numbers {
         flex-wrap: wrap;
         justify-content: center;
       }
-      @include max-screen(767px){
+      @include max-screen(767px) {
         width: 50%;
         transform: scale(1.2);
         margin-bottom: 60px;
       }
-      @include max-screen(420px){
+      @include max-screen(420px) {
         width: 100%;
       }
-      &:hover{
-        transform:scale(1.3);
+
+      &:hover {
+        transform: scale(1.3);
       }
+
       img {
         margin-right: 29px;
         @include max-screen(992px) {
@@ -53,9 +59,11 @@ section.numbers {
           margin: 0 auto 20px;
         }
       }
+
       .paragraph {
         align-content: space-between;
         flex-wrap: wrap;
+
         p {
           display: block;
           font-family: $font-main;
@@ -67,6 +75,7 @@ section.numbers {
             text-align: center;
             line-height: 12px;
           }
+
           span {
             display: block;
             width: 100%;
@@ -80,4 +89,5 @@ section.numbers {
       }
     }
   }
+
 }
