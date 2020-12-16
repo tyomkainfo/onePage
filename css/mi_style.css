@@ -51,13 +51,19 @@
     float: left;
     width: 100%;
     overflow: hidden;
-    height: 0; }
+    height: 0;
+    display: none; }
 
   .nav-open {
     height: auto; }
 
   .nav-list li {
     width: 100%;
-    margin: 10px 0; } }
+    margin: 10px 0; }
+
+  .nav-logo {
+    display: block;
+    position: relative;
+    top: 20px; } }
 
 /*# sourceMappingURL=mi_style.css.map */
