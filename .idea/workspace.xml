@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0351ab-4f25-4513-a562-ca5e025c467f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/Anastasia_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/Anastasia_style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/mi_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/mi_style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/valli_style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/de81992e25418da85fdb1cf23e5bb61ea0f3ffee/valli_style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Anastasia_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/Anastasia_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/ivan2_style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            <state relative-caret-position="275">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -33,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="261">
+              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/Anastasia_style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="414">
+              <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -61,6 +62,7 @@
     <findStrings>
       <find>form</find>
       <find>map</find>
+      <find>h2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,11 +73,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../Elegant/index.html" />
-        <option value="$PROJECT_DIR$/css/Anastasia_style.scss" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/css/ivan2_style.scss" />
-        <option value="$PROJECT_DIR$/css/style.scss" />
+        <option value="$PROJECT_DIR$/css/katerina_style.css" />
+        <option value="$PROJECT_DIR$/css/katerina_style.scss" />
+        <option value="$PROJECT_DIR$/css/mi_style.scss" />
+        <option value="$PROJECT_DIR$/css/Anastasia_style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.scss" />
       </list>
     </option>
   </component>
@@ -111,7 +116,7 @@
               <item name="onePage" type="b2602c69:ProjectViewProjectNode" />
               <item name="onePage" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="style.scss" type="620a8d5e:NestingTreeNode" />
+              <item name="katerina_style.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="onePage" type="b2602c69:ProjectViewProjectNode" />
@@ -134,7 +139,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Elegant" />
+    <property name="last_opened_file_path" value="C:/Ruby24/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -166,6 +171,7 @@
       <workItem from="1607722956848" duration="1089000" />
       <workItem from="1607724513310" duration="798000" />
       <workItem from="1608030754237" duration="1616000" />
+      <workItem from="1608034572637" duration="13158000" />
     </task>
     <task id="LOCAL-00001" summary="comment">
       <created>1607616500355</created>
@@ -279,16 +285,45 @@
       <option name="project" value="LOCAL" />
       <updated>1608031542847</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change ivan file into scss">
+      <created>1608034656428</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608034656428</updated>
+    </task>
+    <task id="LOCAL-00018" summary="delete &lt;&gt; from head &#10;change font in footer">
+      <created>1608035067906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608035067906</updated>
+    </task>
+    <task id="LOCAL-00019" summary="change gallery">
+      <created>1608044719532</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044719532</updated>
+    </task>
+    <task id="LOCAL-00020" summary="change textarea">
+      <created>1608046170790</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608046170790</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7915000" />
+    <option name="totallyTimeSpent" value="21073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,7 +420,10 @@
     <MESSAGE value="mobile version" />
     <MESSAGE value="change mobile version" />
     <MESSAGE value="change ivan file into scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="change ivan file into scss" />
+    <MESSAGE value="delete &lt;&gt; from head &#10;change font in footer" />
+    <MESSAGE value="change gallery" />
+    <MESSAGE value="change textarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="change textarea" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="0" key="CommitChangelistDialog2" timestamp="1607890110749">
@@ -457,38 +495,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ivan__style.css">
+    <entry file="file://$PROJECT_DIR$/css/ivan__style.css" />
+    <entry file="file://$PROJECT_DIR$/css/ivan2_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="92" selection-end-column="1" />
-        </state>
+        <state relative-caret-position="-287" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/ivan2_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/css/katerina_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="244">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mi_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/katerina_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/Anastasia_style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="414">
+          <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="163" column="10" lean-forward="true" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
+        <state relative-caret-position="275">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
