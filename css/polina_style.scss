@@ -1,0 +1,39 @@
+.clients .owl-carousel{
+  background-color: #fff;
+}
+.clients .container{
+  max-width: 1170px;
+  text-align: center;
+}
+
+.clients .container .d-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients_logo_1{
+  padding: 67px 150px 68px 36px;
+}
+
+.clients_logo_2{
+  padding: 71px 150px 71px 0px;
+}
+
+.clients_logo_3{
+  padding: 64px 150px 64px 0px;
+}
+
+.clients_logo_4{
+  padding: 65px 150px 64px 0px;
+}
+
+.clients_logo_5{
+  padding: 67px 36px 68px 0px;
+}
+
+.clients .container .d-flex a:hover img  {
+  border: 2px outset #10c9c3;
+  padding: 5px;
+  border-radius: 50% 5px;
+  margin: -7px;
+}
