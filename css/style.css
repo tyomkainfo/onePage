@@ -802,6 +802,12 @@ img {
 .clients .container {
   max-width: 1170px;
   text-align: center; }
+  @media screen and (max-width: 375px) {
+    .clients .container {
+      max-width: 355px !important;
+      width: 100% !important;
+      left: 0;
+      margin: 0; } }
 
 .clients .container .d-flex {
   display: flex;

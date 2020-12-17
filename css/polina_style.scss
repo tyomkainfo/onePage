@@ -1,9 +1,41 @@
+
+
+.clients .owl-carousel.owl-loaded.owl-drag{
+  padding-bottom: 0px!important;
+}
+
+
 .clients .owl-carousel{
   background-color: #fff;
+  @include max-screen (768px) {
+    max-width: 686px!important;
+    margin: 0;
+  }
+  @include max-screen (414px) {
+    max-width: 369px!important;
+    margin: 0;
+  }
+  @include max-screen(375px) {
+    max-width: 355px!important;
+    margin: 0;
+  }
 }
+
 .clients .container{
   max-width: 1170px;
   text-align: center;
+  @include max-screen (768px) {
+    max-width: 686px!important;
+    margin: 0;
+  }
+  @include max-screen (414px) {
+    max-width: 369px!important;
+    margin: 0;
+  }
+  @include max-screen(375px) {
+    max-width: 355px!important;
+    margin: 0;
+  }
 }
 
 .clients .container .d-flex{
@@ -12,23 +44,69 @@
 }
 
 .clients_logo_1{
-  padding: 67px 150px 68px 36px;
+  padding: 64px 150px 64px 36px;
+  @include max-screen(375px) {
+    padding: 20px 48px 20px 11px;
+  }
+  @include max-screen(414px) {
+    padding: 22px 53px 22px 12px;
+  }
+  @include max-screen(768px) {
+    padding: 42px 98px 42px 24px;
+  }
 }
 
 .clients_logo_2{
-  padding: 71px 150px 71px 0px;
+  padding: 64px 150px 64px 0px;
+  @include max-screen(375px) {
+    padding: 20px 48px 20px 0px;
+  }
+  @include max-screen(414px) {
+    padding: 22px 53px 22px 0px;
+  }
+  @include max-screen(768px) {
+    padding: 42px 98px 42px 0px;
+  }
 }
+
 
 .clients_logo_3{
   padding: 64px 150px 64px 0px;
+  @include max-screen(375px) {
+    padding: 20px 48px 20px 0px;
+  }
+  @include max-screen(414px) {
+    padding: 22px 53px 22px 0px;
+  }
+  @include max-screen(768px) {
+    padding: 42px 98px 42px 0px;
+  }
 }
 
 .clients_logo_4{
-  padding: 65px 150px 64px 0px;
+  padding: 64px 150px 64px 0px;
+  @include max-screen(375px) {
+    padding: 20px 48px 20px 0px;
+  }
+  @include max-screen(414px) {
+    padding: 22px 53px 22px 0px;
+  }
+  @include max-screen(768px) {
+    padding: 42px 98px 42px 0px;
+  }
 }
 
 .clients_logo_5{
-  padding: 67px 36px 68px 0px;
+  padding: 64px 36px 64px 0px;
+  @include max-screen(375px) {
+    padding: 20px 11px 20px 0px;
+  }
+  @include max-screen(414px) {
+    padding: 22px 12px 22px 0px;
+  }
+  @include max-screen(768px) {
+    padding: 42px 24px 42px 0px;
+  }
 }
 
 .clients .container .d-flex a:hover img  {
@@ -36,4 +114,11 @@
   padding: 5px;
   border-radius: 50% 5px;
   margin: -7px;
+  transition: 1s;
+  @include max-screen(375px) {
+    border: 1px outset #10c9c3;
+    padding: 2px;
+    border-radius: 50% 3px;
+    margin: -3px;
+  }
 }
