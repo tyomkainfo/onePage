@@ -668,21 +668,24 @@ img {
   width: 25%;
   position: relative;
   height: 100%;
-  display: block; }
+  display: block;
+  transition: 3s; }
   @media screen and (max-width: 768px) {
     .gallery .foto {
       width: 50%; } }
   .gallery .foto img {
     width: 100%;
     height: 100%;
-    display: block; }
+    display: block;
+    transition: 3s; }
   .gallery .foto:after {
     content: "";
     width: 100%;
     display: block;
     height: 100%;
     background-color: #000000;
-    z-index: 1; }
+    z-index: 1;
+    transition: 3s; }
   .gallery .foto:hover::after {
     width: 100%;
     display: block;
@@ -691,8 +694,7 @@ img {
     position: absolute;
     top: 0;
     color: white;
-    z-index: 1;
-    transition: 3s; }
+    z-index: 1; }
   .gallery .foto:hover::before {
     content: "\f06e";
     font-weight: 900;
@@ -706,22 +708,23 @@ img {
     left: 49%;
     margin: auto;
     color: white;
-    z-index: 2;
-    transition: 3s; }
-  .gallery .foto a {
-    display: inline-block;
-    width: 100%;
-    background-color: #f5f5f5;
-    text-decoration: none;
-    text-align: center;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    color: #8e8e8e;
-    font-size: 12px;
-    padding-top: 45px;
-    padding-bottom: 45px; }
-    .gallery .foto a:hover {
-      color: #10c9c3; }
+    z-index: 2; }
+.gallery a {
+  display: inline-block;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-decoration: none;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #8e8e8e;
+  font-size: 12px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  transition: 1s; }
+  .gallery a:hover {
+    color: white;
+    background-color: #10c9c3; }
 
 .footer {
   background-color: #141414; }
@@ -798,21 +801,18 @@ img {
   .footer__link__three {
     display: block;
     text-align: center; } }
-.clients .owl-carousel.owl-loaded.owl-drag {
-  padding-bottom: 0px !important; }
-
-.clients .owl-carousel {
+.clients {
   background-color: #fff; }
   @media screen and (max-width: 768px) {
-    .clients .owl-carousel {
+    .clients {
       max-width: 686px !important;
       margin: 0; } }
   @media screen and (max-width: 414px) {
-    .clients .owl-carousel {
+    .clients {
       max-width: 369px !important;
       margin: 0; } }
   @media screen and (max-width: 375px) {
-    .clients .owl-carousel {
+    .clients {
       max-width: 355px !important;
       margin: 0; } }
 
