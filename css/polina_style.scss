@@ -109,7 +109,6 @@
   padding: 5px;
   border-radius: 50% 5px;
   margin: -7px;
-  transition: 1s;
   @include max-screen(375px) {
     border: 1px outset #10c9c3;
     padding: 2px;
