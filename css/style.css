@@ -798,17 +798,38 @@ img {
   .footer__link__three {
     display: block;
     text-align: center; } }
+.clients .owl-carousel.owl-loaded.owl-drag {
+  padding-bottom: 0px !important; }
+
 .clients .owl-carousel {
   background-color: #fff; }
+  @media screen and (max-width: 768px) {
+    .clients .owl-carousel {
+      max-width: 686px !important;
+      margin: 0; } }
+  @media screen and (max-width: 414px) {
+    .clients .owl-carousel {
+      max-width: 369px !important;
+      margin: 0; } }
+  @media screen and (max-width: 375px) {
+    .clients .owl-carousel {
+      max-width: 355px !important;
+      margin: 0; } }
 
 .clients .container {
   max-width: 1170px;
   text-align: center; }
+  @media screen and (max-width: 768px) {
+    .clients .container {
+      max-width: 686px !important;
+      margin: 0; } }
+  @media screen and (max-width: 414px) {
+    .clients .container {
+      max-width: 369px !important;
+      margin: 0; } }
   @media screen and (max-width: 375px) {
     .clients .container {
       max-width: 355px !important;
-      width: 100% !important;
-      left: 0;
       margin: 0; } }
 
 .clients .container .d-flex {
@@ -816,25 +837,77 @@ img {
   justify-content: space-between; }
 
 .clients_logo_1 {
-  padding: 67px 150px 68px 36px; }
+  padding: 64px 150px 64px 36px; }
+  @media screen and (max-width: 375px) {
+    .clients_logo_1 {
+      padding: 20px 48px 20px 11px; } }
+  @media screen and (max-width: 414px) {
+    .clients_logo_1 {
+      padding: 22px 53px 22px 12px; } }
+  @media screen and (max-width: 768px) {
+    .clients_logo_1 {
+      padding: 42px 98px 42px 24px; } }
 
 .clients_logo_2 {
-  padding: 71px 150px 71px 0px; }
+  padding: 64px 150px 64px 0px; }
+  @media screen and (max-width: 375px) {
+    .clients_logo_2 {
+      padding: 20px 48px 20px 0px; } }
+  @media screen and (max-width: 414px) {
+    .clients_logo_2 {
+      padding: 22px 53px 22px 0px; } }
+  @media screen and (max-width: 768px) {
+    .clients_logo_2 {
+      padding: 42px 98px 42px 0px; } }
 
 .clients_logo_3 {
   padding: 64px 150px 64px 0px; }
+  @media screen and (max-width: 375px) {
+    .clients_logo_3 {
+      padding: 20px 48px 20px 0px; } }
+  @media screen and (max-width: 414px) {
+    .clients_logo_3 {
+      padding: 22px 53px 22px 0px; } }
+  @media screen and (max-width: 768px) {
+    .clients_logo_3 {
+      padding: 42px 98px 42px 0px; } }
 
 .clients_logo_4 {
-  padding: 65px 150px 64px 0px; }
+  padding: 64px 150px 64px 0px; }
+  @media screen and (max-width: 375px) {
+    .clients_logo_4 {
+      padding: 20px 48px 20px 0px; } }
+  @media screen and (max-width: 414px) {
+    .clients_logo_4 {
+      padding: 22px 53px 22px 0px; } }
+  @media screen and (max-width: 768px) {
+    .clients_logo_4 {
+      padding: 42px 98px 42px 0px; } }
 
 .clients_logo_5 {
-  padding: 67px 36px 68px 0px; }
+  padding: 64px 36px 64px 0px; }
+  @media screen and (max-width: 375px) {
+    .clients_logo_5 {
+      padding: 20px 11px 20px 0px; } }
+  @media screen and (max-width: 414px) {
+    .clients_logo_5 {
+      padding: 22px 12px 22px 0px; } }
+  @media screen and (max-width: 768px) {
+    .clients_logo_5 {
+      padding: 42px 24px 42px 0px; } }
 
 .clients .container .d-flex a:hover img {
   border: 2px outset #10c9c3;
   padding: 5px;
   border-radius: 50% 5px;
-  margin: -7px; }
+  margin: -7px;
+  transition: 1s; }
+  @media screen and (max-width: 375px) {
+    .clients .container .d-flex a:hover img {
+      border: 1px outset #10c9c3;
+      padding: 2px;
+      border-radius: 50% 3px;
+      margin: -3px; } }
 
 * {
   padding: 0;
