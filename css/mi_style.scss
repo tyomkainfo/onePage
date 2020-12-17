@@ -80,7 +80,7 @@
 
   .nav-logo {
     display: block;
-    position: relative;
-    top: 20px;
+    position: relative !important;
+    top: 20px !important;
   }
 }
