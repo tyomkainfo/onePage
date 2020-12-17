@@ -1,11 +1,6 @@
 
 
-.clients .owl-carousel.owl-loaded.owl-drag{
-  padding-bottom: 0px!important;
-}
-
-
-.clients .owl-carousel{
+.clients {
   background-color: #fff;
   @include max-screen (768px) {
     max-width: 686px!important;
