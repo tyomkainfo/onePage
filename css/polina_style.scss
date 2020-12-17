@@ -1,19 +1,12 @@
 
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 .clients {
   background-color: #fff;
-  @include max-screen (768px) {
-    max-width: 686px!important;
-    margin: 0;
-  }
-  @include max-screen (414px) {
-    max-width: 369px!important;
-    margin: 0;
-  }
-  @include max-screen(375px) {
-    max-width: 355px!important;
-    margin: 0;
-  }
 }
 
 .clients .container{
